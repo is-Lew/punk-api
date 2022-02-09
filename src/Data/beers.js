@@ -237,7 +237,7 @@ const beers = [
     },
     {
         "id": 3,
-        "name": "Berliner Weisse With Yuzu - B-Sides",
+        "name": "Berliner Weisse",
         "tagline": "Japanese Citrus Berliner Weisse.",
         "first_brewed": "11/2015",
         "description": "Japanese citrus fruit intensifies the sour nature of this German classic.",

@@ -1,5 +1,16 @@
 .navContainer {
     width: 15vw;
-    border: 4px solid black;
+    border: 4px solid rgba(0, 0, 0, 0.404);
+    
+    
+
+    &__input {
+        background-color: (rgba(49, 49, 49, 0.315));        
+        margin: 4%;
+        margin-top: 12%;
+        height: 3%;
+        width: 90%;
+        font-size: 1.3em;
+    }
 
 }
