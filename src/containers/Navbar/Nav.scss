@@ -1,6 +1,11 @@
 .navContainer {
     width: 15vw;
-    border: 4px solid rgba(0, 0, 0, 0.404);
+    font-weight: bolder;
+    color: rgba(49, 49, 49, 0.781);    
+    flex-direction: column;
+    border-left: 4px solid rgba(0, 0, 0, 0.404);
+    border-top: 4px solid rgba(0, 0, 0, 0.404);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.404);
     
     
 
@@ -11,6 +16,19 @@
         height: 3%;
         width: 90%;
         font-size: 1.3em;
+    }
+
+    &__checkInput {
+        margin-top: 20%;
+        margin-left: 10%;
+        font-size: 1.3em;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        
+    }
+
+    #ph {
+       font-size: larger;
     }
 
 }
