@@ -16,7 +16,6 @@ Screenshots
 ===========
 
 *Desktop View*<br />
-![Desktop Screenshots]
 <br />
 ![](./src/Assets/Images/Screenshot.jpg)
 <br />
