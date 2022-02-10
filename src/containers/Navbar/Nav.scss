@@ -3,20 +3,25 @@
     font-weight: bolder;
     color: rgba(49, 49, 49, 0.781);    
     flex-direction: column;
-    border-left: 4px solid rgba(0, 0, 0, 0.404);
-    border-top: 4px solid rgba(0, 0, 0, 0.404);
-    border-bottom: 4px solid rgba(0, 0, 0, 0.404);
-    
-    
+    background-color: rgba(0, 0, 0, 0.404) ;
+    // border-left: 4px solid rgba(0, 0, 0, 0.404);
+    // border-top: 4px solid rgba(0, 0, 0, 0.404);
+    // border-bottom: 4px solid rgba(0, 0, 0, 0.404);  
 
-    &__input {
-        background-color: (rgba(49, 49, 49, 0.315));        
-        margin: 4%;
-        margin-top: 12%;
-        height: 3%;
-        width: 90%;
-        font-size: 1.3em;
+   
+
+    input[type="checkbox"] {
+        font: inherit;
+        width: 1.15em;
+        height: 1.15em;
+        
     }
+
+    &__cross{
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
 
     &__checkInput {
         margin-top: 20%;
@@ -24,11 +29,9 @@
         font-size: 1.3em;
         display: grid;
         grid-template-columns: 3fr 1fr;
+        appearance: none;
+        filter: brightness(40%);
         
-    }
-
-    #ph {
-       font-size: larger;
     }
 
 }

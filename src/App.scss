@@ -1,8 +1,14 @@
 .container {
+  background-image: url(./Assets/Images/beer-background.jpg);
   display: flex;
   flex-direction: row;
   height: 100vh;
   background-color: #d1d1d12f;
+
+  &__menu{
+    height: 30px;
+    margin: 1%;
+  }
   
 }
 

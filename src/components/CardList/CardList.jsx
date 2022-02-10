@@ -9,7 +9,7 @@ const CardList = props => {
     const beerJSX = beersArr.map((beer) => {
         return <Card
             imgSrc ={beer.image_url}
-            name ={beer.name}
+            name ={beer.name.split(" ").splice(0,2).join(" ")}
             description = {beer.description}        
         />;        
     } )
