@@ -1,0 +1,8 @@
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(3, .3fr);
+    margin: 2%;
+    gap: .4%;
+    justify-content: center;
+    
+}
