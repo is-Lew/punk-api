@@ -1,11 +1,10 @@
 import "./App.scss";
 import React, { useState, useEffect } from "react";
-// import beers from './Data/beers';
 import Main from "./containers/Main/Main";
 import Nav from "./containers/Navbar/Nav";
 import menu from "./Assets/Images/menu-icon.png";
 
-function App() {
+const App = ()  => {
   useEffect(() => {
     fetch("https://api.punkapi.com/v2/beers")
       .then((response) => {
@@ -23,6 +22,7 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);
   const [beers, setBeers] = useState([]);
   const beersArr = beers;
+  
 
   const handleInput = (event) => {
     const cleanInput = event.target.value.toLowerCase();
@@ -62,9 +62,9 @@ function App() {
     <div className="container">
       {!showMenu ? (
         <img
-          onClick={toggleMenu}
-          src={menu}
           className="container__menu "
+          onClick={toggleMenu}
+          src={menu}          
           alt="menu icon"
         />
       ) : (
