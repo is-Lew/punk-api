@@ -10,7 +10,8 @@ const CardList = props => {
         return <Card
             imgSrc ={beer.image_url}
             name ={beer.name.split(" ").splice(0,2).join(" ")}
-            description = {beer.description}        
+            description = {beer.description}  
+            key = {beer.id}     
         />;        
     } )
 
